@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="black">
+      <caption>
+        a test table with merged cells
+      </caption>
+      <thead>
+        <tr>
+          <td rowspan="2"></td>
+          <td colspan="2">Average</td>
+          <td rowspan="2">Red eyes</td>
+        </tr>
+        <tr>
+          <td>height</td>
+          <td>weight</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Males</td>
+          <td>1.9</td>
+          <td>0.003</td>
+          <td>40&percnt;</td>
+        </tr>
+        <tr>
+          <td>Females</td>
+          <td>1.7</td>
+          <td>0.002</td>
+          <td>43&percnt;</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <form action="https://www.google.com/search">
+      <label for="search">beta google search</label>
+      <input type="text" id="search" name="q" placeholder="search any thing " />
+      <button type="submit">search</button>
+    </form>
+    <br />
+    <br />
+    <hr />
+
+    <form action="/server">
+      <div>
+        <input type="text" placeholder="enter first name" name="fname" />
+        <input type="text" placeholder="enter last name" name="lname" />
+      </div>
+      <div>
+        <label for="gender">plz select gender</label>
+        <select name="gender" id="gender">
+          <option value="m" name="gender">male</option>
+          <option value="f" name="gender">female</option>
+          <option value="o" name="gender">other</option>
+        </select>
+      </div>
+      <div>
+        <label for="agree">Do you agree to all term of service?</label>
+        <input type="checkbox" name="agree" id="agree" value="yes" />
+        <label for="agree">yes,i agree</label>
+      </div>
+      <button type="submit">register</button>
+    </form>
+    <br />
+    <br />
+    <hr />
+    <br />
+    <br />
+    <h2>Assigment Question</h2>
+    <hr />
+    <hr />
+    <div>
+      <h2>Q1</h2>
+      <table border="black">
+        <caption>
+          Student Information
+        </caption>
+        <tr>
+          <th rowspan="6">info</th>
+          <th rowspan="2">Name</th>
+          <th colspan="2">Address</th>
+        </tr>
+        <tr>
+          <th>City</th>
+          <th>House</th>
+        </tr>
+        <tr>
+          <td>A</td>
+          <td>delhi</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>B</td>
+          <td>Mumbai</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>C</td>
+          <td>Kol</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>D</td>
+          <td>Pune</td>
+          <td>4</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <br />
+    <hr />
+    <br />
+    <br />
+    <div>
+      <h2>Q2</h2>
+      <form action="">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div>
+          gender:
+          <input type="radio" name="sex" id="male" value="m" />
+          <label for="male">male</label>
+          <input type="radio" name="sex" id="female" value="f" />
+          <label for="female">female</label>
+        </div>
+        <div>
+          <label for="country">country:</label>
+          <select name="country" id="country">
+            <option value="india" selected>india</option>
+            <option value="us">us</option>
+            <option value="uk">uk</option>
+            <option value="australia">australia</option>
+          </select>
+        </div>
+        <div>
+          <label for="message">message:</label>
+          <textarea name="msg" id="message" rows="4" cols="16"></textarea>
+        </div>
+        <div>
+          <input type="checkbox" name="sub" id="subs" value="yes" /><label
+            for="subs"
+            >Subscribe?</label
+          >
+        </div>
+        <button type="submit">submit</button>
+      </form>
+    </div>
+    <br />
+    <br />
+    <hr />
+    <br /><br />
+    <div>
+      <h2>Q3</h2>
+      <form action="">
+        <div>
+          <label for="name">Name:</label
+          ><input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="write your name"
+          />
+        </div>
+        <div>
+          <label for="email">Email:</label
+          ><input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="enter your email"
+          />
+        </div>
+        <div>
+          <label for="message">message</label> <br /><textarea
+            name="msg"
+            id="message"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <div>
+          <label for="">rate us out of 5:</label>
+          <input type="radio" name="rate" id="" value="1" /><label for=""
+            >one</label
+          >
+          <input type="radio" name="rate" id="" value="2" /><label for=""
+            >two</label
+          >
+          <input type="radio" name="rate" id="" value="3" /><label for=""
+            >three</label
+          >
+          <input type="radio" name="rate" id="" value="4" /><label for=""
+            >four</label
+          >
+          <input type="radio" name="rate" id="" value="5" /><label for=""
+            >five</label
+          >
+        </div>
+        <button type="submit">Send your message</button>
+      </form>
+    </div>
+
+    <script>
+        //q1
+    //   let result = (...arr) => {
+    //     let sumsSqr = arr.reduce((sum, el) => {
+    //       sum += el * el;
+    //       return sum;
+    //     });
+
+    //     let sumAvg = arr.reduce((sum, el) => {
+    //         return sum += el;
+    //     })
+
+    //     return [sumsSqr, (sumAvg/arr.length)];
+    //   };
+
+    //   console.log(...(result(1, 2, 3, 4, 5)));
+
+    //Q2
+
+    // let arr = [1,2,3,4,5];
+    // console.log(...arr);
+    // let result = arr.map((el, indx, tArr) => {
+    //     return tArr[indx] = tArr[indx]+5;
+    // });
+
+    // console.log(...result);
+
+    // let string = ["HELLO", "hello", "WORLD","world"];
+    
+    // let result = string.map((ele) => {
+    //     return (ele.toUpperCase());
+    // })
+
+    // console.log(...result);
+
+    // let doubledAndReturnArgs = (num1, num2, num3,...arr2) => {
+    //     let arr1 = [num1, num2, num3];
+
+    //     let double = arr1.map((ele) => {
+    //         return ele*2;
+    //     });
+
+    //     return [...arr2,...double];
+    // }
+
+    // console.log(...(doubledAndReturnArgs(1,2,3,4,4)));
+
+    // let result = (...obj) => {
+    //     return {...obj};
+    // }
+
+    // let obj1 = {
+    //     name:"rohit",
+    //     age: 22
+    // };
+
+    // let obj2 = {
+    //     name:"aditya",
+    //     age:22
+    // }
+
+    // console.log((result(obj1,obj2)));
+
+
+
+    </script>
+  </body>
+</html>
